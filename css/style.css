@@ -86,3 +86,7 @@
 .login-reg-btn div{
     float: left;
 }
+
+#sell-link {
+    color: goldenrod;
+}

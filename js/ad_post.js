@@ -11,9 +11,9 @@ $('document').ready(function(){
         let note = $('#note').val();
         let negotiable = $('#gridCheck').val();
 
-        
+        //local host to check user is logged in
         if (localStorage.length >= 1){
-            
+
             create_post = {
                 brand: brand_name,
                 model: model_bname,
