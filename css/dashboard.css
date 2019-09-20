@@ -1,0 +1,11 @@
+.dashboard-profile {
+    height: 20% !important;
+}
+
+#del-edi {
+    float: right;
+}
+
+#del-edi button{
+    border-radius: 20px;
+}

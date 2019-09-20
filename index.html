@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Fahrzeug::Home</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Merriweather|Ubuntu&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" href="/css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="notifications">
+        <div class="alert alert-success" role="alert">
+            A simple success alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        </div>
+        <div class="alert alert-danger" role="alert">
+            A simple danger alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        </div>
+        <div class="alert alert-warning" role="alert">
+            A simple warning alert with <a href="#" class="alert-link">an example link</a>. Give it a click if you like.
+        </div>
+
+    </div>
+
+
+<nav class="navbar navbar-expand-md navbar-light bg-light mb-3" style="background-color: #ffffff;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="/img/small-logo.png" width="150" height="50" alt="">
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                <a href="index.html" class="nav-item nav-link active">Home</a>
+                <a href="dashboard.html" class="nav-item nav-link">Dashboard</a>
+                <a href="#" class="nav-item nav-link">About</a>
+                <a href="#" class="nav-item nav-link">Contact</a>
+            </div>
+            <div class="navbar-nav ml-auto">
+                <div class="login-reg-btn">
+                    <div id="account">
+                        <a href="dashboard.html" class="nav-item nav-link">Account</a>
+                    </div>
+                    <div id="log">
+                        <a href="login.html" class="nav-item nav-link">Login</a>
+                    </div>
+                    <div id="register">
+                        <a href="register.html" class="nav-item nav-link">Register</a>
+                    </div>
+                    <div id="logout">
+                        <a href="index.html" id="logout" class="nav-item nav-link">Log Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</nav>
+
+
+<div class="container">
+    <div class="jumbotron">
+        <video autoplay muted loop id="myVideo">
+            <source src="vid/screen.mp4" type="video/mp4">
+        </video>
+        <div id="text-background">
+            <h1>FAHR<span>ZEUG</span>.com</h1>
+            <p class="lead">WE PROVIDE THE ULTIMATE PLATFORM FOR YOU TO <span><a href="post.html" class="btn btn-warning btn-sm">SELL</a></span></p>
+        </div>
+    </div>
+
+    <hr>
+    <div>
+        <h4>FEATURED ADS</h4>
+    </div>
+    <hr>
+    <!-- <div data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
+        <div><h3>1</h3></div>
+        <div><h3>2</h3></div>
+        <div><h3>3</h3></div>
+        <div><h3>4</h3></div>
+        <div><h3>5</h3></div>
+        <div><h3>6</h3></div>
+    </div> -->
+    
+    
+    <div class="row home-cards">
+        <!-- <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="card" id="card-${x.id}">
+                <a class="single_ad" href="single_ad.html?id=${x.id}"><img src="img/ads/car-ad-2.jpg" alt="Avatar" style="width:100%"><a>
+                <div class="car-info">
+                    <h4><strong>${x.brand}</strong></h4>
+                    <h5>${x.model}<span id="${x.condition}"><i id="condition">${x.condition}</i></span></h5>
+                    <h6><strong>Location:</strong><span>${x.location}</span></h6>
+                    <p><strong><span>$ ${x.price}</span></strong></p>
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+    <hr>
+    <div>
+        <h4>CARS</h4>
+    </div>
+    <hr>
+    <div class="row">
+
+    </div>
+        
+
+    <hr>
+
+    <footer>
+        <div class="row">
+            <div class="col-md-6">
+                <p>The Christophers Copyright &copy; 2019 WebWeavers</p>
+            </div>
+            <div class="col-md-6 text-md-right">
+                <a href="#" class="text-dark">Terms of Use</a> 
+                <span class="text-muted mx-2">|</span> 
+                <a href="#" class="text-dark">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="./js/jquery-3.4.1.min.js"></script>
+<script src="./js/login.js"></script>
+<script src="./js/home.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+
+
+</body>
+</html>                            

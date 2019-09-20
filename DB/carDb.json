@@ -1,0 +1,88 @@
+{
+  "profile": [
+    {
+      "brand": "Range",
+      "model": "Vegas",
+      "condition": "new",
+      "price": "89000",
+      "note": "not me",
+      "negotiable": "on",
+      "id": 2
+    },
+    {
+      "brand": "Jay",
+      "model": "Chris",
+      "condition": "new",
+      "price": "57423",
+      "location": "lag",
+      "zip": "500102",
+      "note": "",
+      "negotiable": "on",
+      "user_id": "500",
+      "id": 3
+    },
+    {
+      "brand": "Toyota",
+      "model": "E550",
+      "condition": "used",
+      "price": "15000",
+      "location": "lag",
+      "zip": "500102",
+      "note": "perfect",
+      "negotiable": "on",
+      "user_id": "500",
+      "id": 4
+    },
+    {
+      "brand": "vetta",
+      "model": "stallion",
+      "condition": "used",
+      "price": "50000",
+      "location": "ab",
+      "zip": "500102",
+      "note": "no note",
+      "negotiable": "on",
+      "user_id": "502",
+      "id": 5
+    },
+    {
+      "brand": "Audi",
+      "model": "E500",
+      "condition": "used",
+      "price": "8000000",
+      "location": "lag",
+      "zip": "4895",
+      "note": "Bb",
+      "negotiable": "on",
+      "id": 7
+    },
+    {
+      "brand": "Audi ZZ",
+      "model": "890",
+      "condition": "new",
+      "price": "7412563",
+      "location": "lag",
+      "zip": "852",
+      "note": "sdff",
+      "negotiable": "on",
+      "user_id": "508",
+      "id": 8
+    }
+  ],
+  "user": [   
+    {
+      "fname": "Carter",
+      "lname": "Allen",
+      "phone": "08166870575",
+      "mobile": "0817754689",
+      "email": "yyy@m.xom",
+      "password": "787895945",
+      "address": "Micah street Rumuigbo",
+      "address_two": "",
+      "city": "Port Harcourt",
+      "state": "Delta",
+      "zip": "500102",
+      "id": 510
+    }
+  ]
+}

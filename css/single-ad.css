@@ -1,0 +1,22 @@
+.other-img {
+    float: left;
+    margin: 1% 0;
+}
+.other-img div img {
+    background-position: center;
+    background-size: contain;
+    width: 130px;
+    height: 100px;
+}
+
+#car-details h6 span{
+    float: right;
+}
+
+#contact-details span {
+    float: right;
+}
+
+#main-image {
+    width: 30px;
+}
