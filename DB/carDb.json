@@ -67,9 +67,21 @@
       "negotiable": "on",
       "user_id": "508",
       "id": 8
+    },
+    {
+      "brand": "Benz ",
+      "model": "Classic",
+      "condition": "used",
+      "price": "100000",
+      "location": "ph",
+      "zip": "500102",
+      "note": "This is benz",
+      "negotiable": "on",
+      "user_id": "511",
+      "id": 9
     }
   ],
-  "user": [   
+  "user": [
     {
       "fname": "Carter",
       "lname": "Allen",
@@ -83,6 +95,20 @@
       "state": "Delta",
       "zip": "500102",
       "id": 510
+    },
+    {
+      "fname": "James",
+      "lname": "Christian",
+      "phone": "+2347013722950",
+      "mobile": "+2347013722950",
+      "email": "christopher@l.com",
+      "password": "789",
+      "address": "Micah street Rumuigbo",
+      "address_two": "",
+      "city": "Port Harcourt",
+      "state": "Rivers",
+      "zip": "500102",
+      "id": 511
     }
   ]
 }
